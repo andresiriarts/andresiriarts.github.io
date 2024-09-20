@@ -1,0 +1,67 @@
+/* Banner */
+.banner {
+  position: relative; /* Esto permite que los elementos hijos se posicionen en relación con el contenedor */
+  width: 100%;
+  height: 350px; /* Ajusta la altura */
+  display: flex;
+  justify-content: center; /* Centra la imagen horizontalmente */
+  overflow: hidden;        /* Evita que se exceda del contenedor */
+}
+
+.img_banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La imagen se ajusta sin distorsionarse */
+}
+
+.title {
+  position: absolute; /* Permite que el título se coloque sobre la imagen */
+  top: 50%; /* Posiciona verticalmente en el medio del contenedor */
+  left: 50%; /* Posiciona horizontalmente en el medio del contenedor */
+  transform: translate(-50%, -50%); /*  Posicina el título */
+  color: #fff;
+  text-align: center;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+/* Sobre mi */
+.sobremi{
+  background-color: rgba(166, 182, 182, 0.281);
+  display: flex;
+  padding: 5px 15px;
+  margin: 10px 50px;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.backgorund{
+  margin: 30px 0px;
+  text-align: center;
+}
+
+/* Educación */
+/* .container {
+  background-color: rgba(166, 182, 182, 0.281);
+  display: flex;
+  padding: 5px 15px 5px 15px;
+  margin: 10px 50px;
+  border-radius: 20px;
+}
+
+.container > h2 {
+  justify-content: center;
+  margin-bottom: 30px;
+} */
+
+.container {
+  background-color: rgba(166, 182, 182, 0.281);
+  padding: 5px 15px;
+  margin: 10px auto;
+  border-radius: 20px;
+  max-width: 93%;
+}
+
+.container h2 {
+  text-align: center;
+  margin: 0;
+}
